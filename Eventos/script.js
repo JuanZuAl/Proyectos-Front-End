@@ -1,35 +1,17 @@
-let cuenta = 0
+const boton = document.querySelector("#eventButton");
+boton.onclick = saludar;
+/*
 
+boton.addEventListener("mouseover", function() {
+    botonCambiante.style.backgroundColor = "red";
+});
 
-if (cuenta >= 15) {
-    cuenta = document.getElementById('numero').style.color = "#d21212"
-}
-function aumentar() {
-    cuenta++;
-    document.getElementById("numero").innerHTML = cuenta
-    if (cuenta >= 15) {
-     document.getElementById('numero').style.color = "#d21212" 
-    }else {
-     document.getElementById('numero').style.color = "#000000" 
-    }
-}
-    
+boton.addEventListener("mouseout", function() {
+    botonCambiante.style.backgroundColor = "";
+}); 
+boton.addEventListener("dblclick",saludar);
+*/
+function saludar() {
+    console.log("Hola, has hecho click en el botón!")
 
-function disminuir(){
-    cuenta--
-    document.getElementById('numero').innerHTML = cuenta
-        if (cuenta <= 15) {
-     document.getElementById('numero').style.color = "#000000" 
-    }else {
-     document.getElementById('numero').style.color = "#ff0000" 
-    }
-}
-
-
-function restablecer (){
-    cuenta = cuenta * 0
-    document.getElementById('numero').innerHTML = cuenta
-            if (cuenta >= 0 || cuenta <= 0) {
-     document.getElementById('numero').style.color = "#000000" 
-    }
 }
