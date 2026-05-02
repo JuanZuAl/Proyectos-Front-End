@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#color {
+    font-size: 24px50px;
+    text-align: centercenter;
+    margin: auto;
+}
+#div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+#div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
